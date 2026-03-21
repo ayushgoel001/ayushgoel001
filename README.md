@@ -1,6 +1,6 @@
 # Hi, I'm Ayush Goel
 
-**Software Engineering & AI Undergraduate at IIT Kharagpur (9.04 CGPA)** | Focusing on **C++**, **Systems Optimization**, and **Algorithmic Efficiency**
+**Software Engineering & AI Undergraduate at IIT Kharagpur** | Focusing on **C++**, **Systems Optimization**, and **Algorithmic Efficiency**
 
 I am deeply passionate about tackling complex algorithmic challenges and architecting performance-critical systems. With a strong foundation in **C++** and **Python**, my focus lies at the intersection of high-performance computing, autonomous systems, and rigorous algorithmic optimization.
 
