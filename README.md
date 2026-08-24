@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Animated neon header for Ayush Goel - Backend Engineering, Applied AI, and Algorithms" />
+<img src="./assets/profile-header.svg" width="100%" alt="Ayush Goel - Software Engineering, Backend Systems, and Applied AI" />
 
 ### Software Engineering + Applied AI @ IIT Kharagpur
 
@@ -19,45 +19,29 @@ I build reliable backend systems and applied AI products with measurable perform
 ## `whoami.cpp`
 
 ```cpp
-#include <array>
-#include <string_view>
+#include <iostream>
+#include <string>
+#include <vector>
 
-namespace profile {
-using namespace std::literals;
-
-class AyushGoel final {
+class AyushGoel {
 public:
-    constexpr AyushGoel() noexcept = default;
-    AyushGoel(const AyushGoel&) = delete;            // one of one
-    AyushGoel& operator=(const AyushGoel&) = delete;
+    std::string university = "IIT Kharagpur";
+    std::string focus = "Backend Systems, Algorithms & Applied AI";
 
-    static constexpr auto university = "IIT Kharagpur"sv;
-    static constexpr auto degree = "B.Tech. (Hons.), Chemical Engineering"sv;
-    static constexpr auto specialization = "Artificial Intelligence & Applications"sv;
-
-    static constexpr std::array<std::string_view, 5> core{
-        "C++"sv, "Python"sv, "Backend Systems"sv, "Algorithms"sv, "Applied AI"sv
+    std::vector<std::string> toolkit = {
+        "C++", "Python", "FastAPI", "PostgreSQL", "Redis", "Docker"
     };
 
-    [[nodiscard]] constexpr auto current_focus() const noexcept {
-        return "scalable APIs | system design | performance engineering"sv;
+    void sayHi() const {
+        std::cout << "I build systems that are reliable, measurable, and useful.\n";
+        std::cout << "Build -> benchmark -> improve -> repeat.\n";
     }
-
-    [[nodiscard]] constexpr auto engineering_loop() const noexcept {
-        return "build -> benchmark -> optimize -> repeat"sv;
-    }
-
-    static constexpr bool open_to_collaborate = true;
-    static constexpr bool ships_without_tests = false;
 };
-} // namespace profile
 
 int main() {
-    constexpr profile::AyushGoel ayush{};
-    static_assert(ayush.engineering_loop() ==
-                  "build -> benchmark -> optimize -> repeat");
-
-    return ayush.open_to_collaborate ? 0 : 1;         // exit(0): let's build
+    AyushGoel ayush;
+    ayush.sayHi();
+    return 0; // shipped successfully
 }
 ```
 
