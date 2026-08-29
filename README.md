@@ -122,8 +122,11 @@ A deterministic motion-planning system combining probabilistic roadmaps, spatial
 <img src="https://skillicons.dev/icons?i=cpp,c,python,js,fastapi,nodejs,express,postgres,redis,mongodb,pytorch,opencv,docker,git,github,linux&perline=8" alt="C++, C, Python, JavaScript, FastAPI, Node.js, Express, PostgreSQL, Redis, MongoDB, PyTorch, OpenCV, Docker, Git, GitHub, and Linux" />
 
 </div>
-| Core | Backend and data | Applied AI | Engineering |
-| --- | --- | --- | --- |
+
+<br>
+
+| Core | Backend & Data | Applied AI | Engineering |
+| :--- | :--- | :--- | :--- |
 | C++, C, Python, SQL, JavaScript | FastAPI, Node.js, Express, PostgreSQL, Redis, MongoDB, REST APIs | PyTorch, OpenCV, YOLO, MediaPipe, NumPy, SciPy | Docker, Linux, GitHub Actions, pytest, Postman |
 
 ## Competitive programming
@@ -133,15 +136,17 @@ A deterministic motion-planning system combining probabilistic roadmaps, spatial
 - **Rank 22** in the Optiver Quantitative Trade-a-thon 2026.
 - **All-India Rank 7** in Round 1 of Convolve 4.0, the Pan-IIT AI/ML Hackathon.
 
-## Contribution activity
+## GitHub activity
 
 <div align="center">
 
-<a href="https://github.com/ayushgoel001" aria-label="View Ayush Goel's GitHub profile">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushgoel001&custom_title=Contribution%20Activity&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=F8FAFC&area=true&area_color=0C4A6E&hide_border=true&radius=8" width="100%" alt="Ayush Goel's live GitHub contribution activity graph" />
+<a href="https://github.com/ayushgoel001">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayushgoel001&theme=github_dark"
+    width="100%"
+    alt="Ayush Goel's GitHub activity"
+  />
 </a>
-
-<sub>Live, automatically updated, and clickable.</sub>
 
 </div>
 
