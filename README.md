@@ -142,9 +142,9 @@ A deterministic motion-planning system combining probabilistic roadmaps, spatial
 
 <a href="https://github.com/ayushgoel001">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayushgoel001&theme=github_dark"
+    src="./profile-3d-contrib/profile-night-view.svg"
     width="100%"
-    alt="Ayush Goel's GitHub activity"
+    alt="Ayush Goel's 3D GitHub contribution activity"
   />
 </a>
 
